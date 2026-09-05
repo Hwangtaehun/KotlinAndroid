@@ -4,7 +4,7 @@ val data4: Int by lazy {
 }
 
 fun main() {
-	println("in mai n......")
+	println("in main......")
 	println(data4 + 10)
 	println(data4 + 10)
 }

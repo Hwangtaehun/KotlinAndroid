@@ -1,0 +1,48 @@
+<component name="libraryTable">
+  <library name="kotlinbasic">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/kotlinbasic/when6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/kotlinbasic/for3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/kotlinbasic/string.jar!/" />
+      <root url="jar://$PROJECT_DIR$/kotlinbasic/typealias.jar!/" />
+      <root url="jar://$PROJECT_DIR$/kotlinbasic/class6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/kotlinbasic/dataclass2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/kotlinbasic/function.jar!/" />
+      <root url="jar://$PROJECT_DIR$/kotlinbasic/string2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/kotlinbasic/tempCodeRunnerFile.jar!/" />
+      <root url="jar://$PROJECT_DIR$/kotlinbasic/class2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/kotlinbasic/when5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/kotlinbasic/ifelse3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/kotlinbasic/object.jar!/" />
+      <root url="jar://$PROJECT_DIR$/kotlinbasic/class.jar!/" />
+      <root url="jar://$PROJECT_DIR$/kotlinbasic/class5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/kotlinbasic/collect.jar!/" />
+      <root url="jar://$PROJECT_DIR$/kotlinbasic/dataclass3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/kotlinbasic/null1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/kotlinbasic/map.jar!/" />
+      <root url="jar://$PROJECT_DIR$/kotlinbasic/null2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/kotlinbasic/ifelse2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/kotlinbasic/lambda.jar!/" />
+      <root url="jar://$PROJECT_DIR$/kotlinbasic/when4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/kotlinbasic/list.jar!/" />
+      <root url="jar://$PROJECT_DIR$/kotlinbasic/for.jar!/" />
+      <root url="jar://$PROJECT_DIR$/kotlinbasic/class4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/kotlinbasic/Test.jar!/" />
+      <root url="jar://$PROJECT_DIR$/kotlinbasic/class8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/kotlinbasic/ifelse.jar!/" />
+      <root url="jar://$PROJECT_DIR$/kotlinbasic/class3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/kotlinbasic/when.jar!/" />
+      <root url="jar://$PROJECT_DIR$/kotlinbasic/when2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/kotlinbasic/hotFun.jar!/" />
+      <root url="jar://$PROJECT_DIR$/kotlinbasic/mutablelist.jar!/" />
+      <root url="jar://$PROJECT_DIR$/kotlinbasic/complain.jar!/" />
+      <root url="jar://$PROJECT_DIR$/kotlinbasic/when3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/kotlinbasic/for2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/kotlinbasic/null3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/kotlinbasic/class7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/kotlinbasic/dataclass.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

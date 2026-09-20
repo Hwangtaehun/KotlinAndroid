@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "viewclass"
 include(":app")
- 
+include(":ch6_view")

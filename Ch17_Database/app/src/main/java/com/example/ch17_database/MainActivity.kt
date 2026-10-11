@@ -39,8 +39,14 @@ class MainActivity : AppCompatActivity() {
 
         datas= mutableListOf<String>()
 
-        //add......................
-
+        val db = DBHelper(this).readableDatabase
+        val cursor = db.rawQuery("select * from TODO_TB", null)
+        cursor.run {
+            while(moveToNext()){
+                datas?.add(cursor.getString(1))
+            }
+        }
+        db.close()
 
         val layoutManager = LinearLayoutManager(this)
         binding.mainRecyclerView.layoutManager=layoutManager

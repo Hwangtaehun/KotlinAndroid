@@ -21,12 +21,22 @@ class AddActivity : AppCompatActivity() {
         return super.onCreateOptionsMenu(menu)
     }
 
-    override fun onOptionsItemSelected(item: MenuItem): Boolean = when(item.itemId){
-        R.id.menu_add_save ->{
-            //add........................
-
-            true
+    override fun onOptionsItemSelected(item: MenuItem): Boolean =
+        when(item.itemId){
+            R.id.menu_add_save ->{
+                val inputData = binding.addEditView.text.toString()
+                val db = DBHelper(this).writableDatabase
+                db.execSQL(
+                    "insert into TODO_TB (todo) values (?)",
+                    arrayOf<String>(inputData)
+                )
+                db.close()
+                val intent = intent
+                intent.putExtra("result", inputData)
+                setResult(Activity.RESULT_OK, intent)
+                finish()
+                true
+            }
+            else -> true
         }
-        else -> true
-    }
 }

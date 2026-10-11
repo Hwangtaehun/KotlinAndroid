@@ -38,7 +38,6 @@ android {
 }
 
 dependencies {
-    implementation("org.jetbrains.kotlin:Kotlinx-coroutines-android:1.7.3")
     implementation(libs.androidx.activity.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.constraintlayout)

@@ -3,13 +3,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.ch15_service"
+    namespace = "com.example.ch15_outer"
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId = "com.example.ch15_service"
+        applicationId = "com.example.ch15_outer"
         minSdk = 24
         targetSdk = 37
         versionCode = 1
@@ -30,15 +30,12 @@ android {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
-
     buildFeatures {
-        viewBinding = true
         aidl = true
     }
 }
 
 dependencies {
-    implementation("org.jetbrains.kotlin:Kotlinx-coroutines-android:1.7.3")
     implementation(libs.androidx.activity.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.constraintlayout)
